@@ -39,6 +39,8 @@ jobs:
           CHECK_WORKER: "https://gate-check.qq2756466874.workers.dev/check?sstp=vpn:vpn@"
           CHECK_TOKEN: ${{ secrets.CHECK_TOKEN }}
           NODES_URL: "https://formulachenzen.github.io/gate/nodes.txt"
+          EDGE_HOSTS: "gate.rumystic.com:443"
+          OPTIMAL_API: ""
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
 
